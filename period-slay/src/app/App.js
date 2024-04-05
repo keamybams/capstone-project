@@ -1,6 +1,6 @@
 import './App.css';
 import {LandingPageHeader} from './components/LandingPageHeader'
-import { LandingHeroSection} from './components/LandingHeroSection';
+import {LandingHeroSection} from './components/LandingHeroSection';
 
 function App() {
   return (
