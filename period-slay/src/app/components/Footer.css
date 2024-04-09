@@ -1,0 +1,32 @@
+.footer {
+    height: 150px;
+    background-color: #CCC4E0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.footer-menu {
+    list-style: None;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footer-buttons > * {
+    margin-left: 30px;
+
+}

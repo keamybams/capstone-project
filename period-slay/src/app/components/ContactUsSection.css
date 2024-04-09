@@ -1,0 +1,83 @@
+.contact-us-section {
+    width: 1240px;
+    height: 580px;
+    border-radius: 8px;
+    padding: 50px 20px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-section h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-align: center; /* Center the heading */
+}
+
+.contact-us-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center; /* Center the paragraph */
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 1240px; /* Limit the form width */
+}
+
+.input-section {
+    background-color: #E5E5E5;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+
+.form-group h3 {
+    font-size: 28px;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #393939;
+
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%; /* Take up 100% width minus padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the input within its container */
+    display: block; /* Ensure inputs are displayed as block elements */
+}
+
+.contact-form button[type="submit"] {
+    background-color: #E9525D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Ensure button is displayed as a block element */
+    margin: 30px auto;
+    width: 350px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #b43941;
+}
+
+#message {
+    height: 180px;
+}
