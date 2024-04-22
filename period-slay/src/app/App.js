@@ -1,28 +1,19 @@
-import './App.css';
-import {LandingPageHeader} from './components/LandingPageHeader'
-import {LandingHeroSection} from './components/LandingHeroSection'
-import {LandingSubHero} from './components/LandingSubHero'
-import {InfoSection} from './components/InfoSection';
-import {SecondInfoSection} from './components/SecondInfoSection';
-import {ThirdInfoSection} from './components/ThirdInfoSection';
-import { FaqSection } from './components/FaqSection';
-import { ContactUsSection } from './components/ContactUsSection';
-import { Footer } from './components/Footer';
+import './App.css'; 
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { LandingPage } from './LandingPage';
+import { InfoHub } from './pages/aboutus/InfoHub';
 
 function App() {
-  return (
-    <div>
-      <LandingPageHeader />
-      <LandingHeroSection />
-      <LandingSubHero />
-      <InfoSection />
-      <SecondInfoSection />
-      <ThirdInfoSection />
-      <FaqSection />
-      <ContactUsSection />
-      <Footer />
-    </div>
-  );
+    return (
+      <BrowserRouter>
+        <Routes>
+            <Route exact path="/" element={<LandingPage />} />
+            <Route path="/InfoHub" element={<InfoHub />} />
+        </Routes>
+      </BrowserRouter>
+  
+    );
 }
-
-export default App;
+  
+  export default App;
+  

@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import './ContactUsSection.css'; // Import your CSS file for styling
+import './ContactUsSection.css';
+import { Modal } from './Modal';
 
 export const ContactUsSection = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [showModal, setShowModal] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -14,6 +16,15 @@ export const ContactUsSection = () => {
         setName('');
         setEmail('');
         setMessage('');
+        setShowModal(true);
+        // Hide the modal after 3 seconds (3000 milliseconds)
+        setTimeout(() => {
+            setShowModal(false);
+        }, 6000);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
     };
 
     return (
@@ -55,6 +66,8 @@ export const ContactUsSection = () => {
                 </div>
                 <button className='msg-btn' type="submit">Submit your request</button>
             </form>
+
+            <Modal showModal={showModal} closeModal={closeModal} />
         </div>
     );
 };

@@ -21,6 +21,8 @@ export const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faFacebookSquare} />
             <FontAwesomeIcon icon={faXTwitter} />
+
+            <button className='donate-button'>Donate</button>
         </div>
     </footer>)
 };

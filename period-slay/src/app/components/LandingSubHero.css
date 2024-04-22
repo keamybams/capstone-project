@@ -1,94 +1,47 @@
-.sub-hero {
-    background-color: #ffffff;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.circle-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.circle-dropdown {
+.card-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.row {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.card {
+    width: 500px;
+    height: 800px; 
+    margin: 0 50px; 
+    padding: 20px;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Add slight lift effect on hover */
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
-#pink-circle {
-    background-color: #FC6CB1;
-    ;
-}
-
-#purple-circle {
-    background-color: #CCC4E0;
-    ;
-}
-
-.circle:hover {
-    background-color: #e0e0e0;
-}
-
-.circle img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropbtn {
-    background-color: transparent;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-}
-
-#dropbtn-module::after {
-    content: ' ▼';
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #ddd;
+.card p {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 400;
+    width: 100%;
 }
