@@ -6,12 +6,26 @@ export const SecondInfoSection = () => {
     <div className='section-content'>
 
         <div className='second-left'>
-            <h2>Something</h2>
+            <h2>Our Mission</h2>
             <p>
-                Tracking your menstrual cycle helps 
-                to understand your cycle better.
-                It gives control  over the reproductive
-                system and helps to plan activities around the menstrual cycle.
+                This guide is a resource you can return to
+                whenever you have questions or need advice.
+                Remember, you’re not alone, millions of girls and
+                women around the world have gone through the
+                same experience. We hope this guide helps you 
+                feel prepared, confident, and empowered as you
+                navigate this new chapter in your life.
+                Let’s get started!
+            </p>
+            <p>
+                This guide is a resource you can return to
+                whenever you have questions or need advice.
+                Remember, you’re not alone, millions of girls and
+                women around the world have gone through the
+                same experience. We hope this guide helps you 
+                feel prepared, confident, and empowered as you
+                navigate this new chapter in your life.
+                Let’s get started!
             </p>
         </div>
         <div className='second-right'>

@@ -18,6 +18,8 @@ export const InfoSection = () => {
                 feel prepared, confident, and empowered as you
                 navigate this new chapter in your life.
                 Let’s get started!
+            </p>
+            <p>
                 This guide is a resource you can return to
                 whenever you have questions or need advice.
                 Remember, you’re not alone, millions of girls and

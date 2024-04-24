@@ -1,19 +1,34 @@
 import './ThirdInfoSection.css'
-import Image from './support.png'
+import Image from './info2.png'
 
 export const ThirdInfoSection = () => {
-    return (<div className='image-text-section2'>
+    return (<div className='image-text-section'>
     <div className='section-content'>
         <div className='left'>
             <img src={Image} alt='Image' />
         </div>
         <div className='right'>
+            <h2>Our Story</h2>
             <p>
-                Speak with a Period slay initiative
-                expert to learn more and get your
-                questions answered.
+                This guide is a resource you can return to
+                whenever you have questions or need advice.
+                Remember, you’re not alone, millions of girls and
+                women around the world have gone through the
+                same experience. We hope this guide helps you 
+                feel prepared, confident, and empowered as you
+                navigate this new chapter in your life.
+                Let’s get started!
             </p>
-            <button className='btn'>Send Us A Message</button>
+            <p>
+                This guide is a resource you can return to
+                whenever you have questions or need advice.
+                Remember, you’re not alone, millions of girls and
+                women around the world have gone through the
+                same experience. We hope this guide helps you 
+                feel prepared, confident, and empowered as you
+                navigate this new chapter in your life.
+                Let’s get started!
+            </p>
         </div>
     </div>
 </div>)
