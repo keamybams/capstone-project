@@ -1,6 +1,7 @@
 .image-text-section2 {
-    padding: 50px 0;
+    padding: 50px 50px;
     background-color: rgb(255, 255, 255);
+    
 }
 
 .section-content {
@@ -9,23 +10,27 @@
     justify-content: space-around;
 }
 
-.left {
+.second-right {
     flex: 1;
-    margin-right: 20px;
+    margin-left: 100px;
 }
 
-.right {
+.second-left {
     flex: 1;
 }
 
-.left img {
+.second-right img {
     width: 100%;
     max-width: 400px; 
     display: block;
     margin: 0 auto;
 }
 
-.right p {
+.second-left {
+    margin: 0 100px;
+}
+
+.second-left p {
     font-size: 16px;
     margin-bottom: 20px;
     max-width: 400px;

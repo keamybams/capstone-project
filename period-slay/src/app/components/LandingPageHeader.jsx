@@ -3,6 +3,7 @@ import logo from './slaylogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export const LandingPageHeader = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -18,7 +19,7 @@ export const LandingPageHeader = () => {
             </div>
             <div className='navbar'>
                 <ul className='navmenu'>
-                    <li><a href="#home">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><a href="#community">Community</a></li>
                     <li><a href="#contact-us">Contact us</a></li>
                     <li>

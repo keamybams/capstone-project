@@ -33,7 +33,7 @@
 }
 
 .heading h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
     background-color: #E9525D;
@@ -50,7 +50,6 @@
     font-size: 16px;
     margin-bottom: 20px;
     max-width: 400px;
-    font-size: 24px;
     font-weight: 400;
 }
 
