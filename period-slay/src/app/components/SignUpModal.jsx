@@ -7,7 +7,7 @@ export const SignUpModal = ({ onClose }) => {
         <div className="modal">
             <div className="modal-content">
                 <span className="close" onClick={onClose}>&times;</span>
-                <h2>Sign Up</h2>
+                <h2>Join Period Slay Initiative!</h2>
                 <button className="google-signup" id='email-signup'>
                     <FontAwesomeIcon icon={faGoogle} />
                     Sign Up with Google
@@ -16,7 +16,12 @@ export const SignUpModal = ({ onClose }) => {
                     <FontAwesomeIcon icon={faApple} />
                     Sign Up with Apple
                 </button>
-                <hr className="divider" />
+                <div className='or'>
+                    <hr className="divider" />
+                    <p>or</p>
+                    <hr className="divider" />
+                </div>
+                
                 <form className='signup-form'>
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />

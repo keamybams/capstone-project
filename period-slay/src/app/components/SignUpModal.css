@@ -4,7 +4,7 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 200%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -36,8 +36,8 @@
     padding: 10px 16px;
 }
 
-button icon > * {
-    margin-left: 30px;
+button .icon > * {
+    margin-right: 30px;
 
 }
 
@@ -45,6 +45,12 @@ button icon > * {
     border: none;
     border-top: 1px solid #ccc;
     margin: 10px 0;
+    flex: 1;
+}
+
+.or {
+    display: flex;
+    width: 100%;
 }
 
 .signup-form {
@@ -68,12 +74,16 @@ button icon > * {
     cursor: pointer;
 }
 
+.modal-content h1 {
+    text-align: center;
+}
+
 .modal-content p {
     margin-top: 10px;
     font-size: 14px;
 }
 
 .modal-content a {
-    color: #E9525D;
+    color: #000000;
     text-decoration: none;
 }

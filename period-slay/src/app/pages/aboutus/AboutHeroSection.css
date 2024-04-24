@@ -1,0 +1,24 @@
+.about-hero-section {
+    background-color: #f7f4f4;
+    background-size: cover;
+    background-position: center;
+    color: #070000;
+    padding: 100px 0; /* Adjust as needed */
+    text-align: center;
+}
+
+.about-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.about-hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
