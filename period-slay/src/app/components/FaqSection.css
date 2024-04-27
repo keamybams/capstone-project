@@ -1,17 +1,17 @@
 .faq-section {
-    padding: 0px 100px;
+    padding: 20px 20px;
     text-align: left;
 }
 
 .faq-section h2 {
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0 0px;
     margin-bottom: 0px ;
 }
 
 .faq-section p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .faq-header {
@@ -39,7 +39,8 @@
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-    width: 1140px;
+    width: 100%;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,4 +53,28 @@
     border: 1px solid #ddd;
     border-top: none;
     border-radius: 0 0 5px 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 768px) {
+    .faq-section {
+        padding: 40px 100px; /* Reset padding for larger screens */
+    }
+
+    .faq-section h2 {
+        font-size: 40px; /* Reset font size for larger screens */
+    }
+
+    .faq-section p {
+        font-size: 20px; /* Reset font size for larger screens */
+    }
+
+    .question {
+        width: 600px; /* Increase width for larger screens */
+    }
+
+    .answer {
+        max-width: 600px; /* Increase maximum width for larger screens */
+    }
 }
