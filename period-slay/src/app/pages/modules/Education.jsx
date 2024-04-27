@@ -5,7 +5,6 @@ import { EducationHeroSection } from './EducationHeroSection'
 import { EducationSubHero } from './EducationSubHero'
 import { FaqSection } from '../../components/FaqSection'
 
-
 export const Education = () => {
   return (
     <div>

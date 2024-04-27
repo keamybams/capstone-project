@@ -1,0 +1,24 @@
+.education-hero-section {
+    background-color: #FFDFD4;
+    background-size: cover;
+    background-position: center;
+    color: #070000;
+    padding: 100px 0; /* Adjust as needed */
+    text-align: center;
+}
+
+.education-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.education-hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+

@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -19,6 +19,8 @@
     border-radius: 8px;
     width: 300px;
     margin-bottom: 20px;
+    box-shadow: #000000;
+    
 }
 
 .close {
@@ -30,15 +32,15 @@
 
 .google-signup, .apple-signup {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: white;
     border-radius: 8px;
+    border: 1px solid #ccc;
     padding: 10px 16px;
 }
 
-button .icon > * {
-    margin-right: 30px;
-
+.social-icon {
+    margin-right: 10px;
 }
 
 .divider {
@@ -59,9 +61,10 @@ button .icon > * {
 }
 
 .signup-form input[type="email"], input[type="password"] {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 8px;
-    border: 1px solid #ccc;
+    background-color: #F0F4F8;
+    border: 1px solid #cccccc00;
     border-radius: 4px;
 }
 
@@ -80,7 +83,7 @@ button .icon > * {
 
 .modal-content p {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 5px;
 }
 
 .modal-content a {

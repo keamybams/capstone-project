@@ -1,7 +1,7 @@
 import './LandingPageHeader.css'
 import logo from './slaylogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleUp,faBars } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faAngleUp, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 

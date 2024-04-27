@@ -9,11 +9,11 @@ export const SignUpModal = ({ onClose }) => {
                 <span className="close" onClick={onClose}>&times;</span>
                 <h2>Join Period Slay Initiative!</h2>
                 <button className="google-signup" id='email-signup'>
-                    <FontAwesomeIcon icon={faGoogle} />
+                    <FontAwesomeIcon icon={faGoogle} className='social-icon'/>
                     Sign Up with Google
                 </button>
                 <button className="apple-signup" id='email-signup'>
-                    <FontAwesomeIcon icon={faApple} />
+                    <FontAwesomeIcon icon={faApple} className='social-icon' />
                     Sign Up with Apple
                 </button>
                 <div className='or'>

@@ -39,7 +39,7 @@
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-    width: 100%;
+    width: 400px;
     max-width: 400px;
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@
     border: 1px solid #ddd;
     border-top: none;
     border-radius: 0 0 5px 5px;
-    width: 100%;
+    width: 400px;
     max-width: 400px;
 }
 
@@ -71,10 +71,12 @@
     }
 
     .question {
-        width: 600px; /* Increase width for larger screens */
+        width: 1140px;
+        max-width: none; /* Increase width for larger screens */
     }
 
     .answer {
-        max-width: 600px; /* Increase maximum width for larger screens */
+        width: 1140px; 
+        max-width: none;/* Increase maximum width for larger screens */
     }
 }

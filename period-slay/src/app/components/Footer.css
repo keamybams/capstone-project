@@ -39,3 +39,26 @@ a {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        height: auto; /* Auto height to accommodate content */
+        padding: 20px; /* Adjust padding for smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+    }
+
+    .footer-menu li {
+        margin-right: 0; /* Remove margin for smaller screens */
+        margin-bottom: 10px;
+        display: block; /* Add bottom margin for smaller screens */
+    }
+
+    .footer-buttons {
+        margin-top: 20px; /* Add top margin for smaller screens */
+    }
+
+    .footer-buttons > * {
+        margin-left: 10px; /* Remove left margin for smaller screens */
+    }
+}
