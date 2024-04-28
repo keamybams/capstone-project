@@ -1,9 +1,10 @@
 .contact-us-section {
-    width: 1240px;
-    height: 580px;
+    width: 100%;
+    max-width: 1240px;
+    /* height: 580px; */
     border-radius: 8px;
     padding: 50px 20px;
-    margin: 50px 0;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,17 +31,19 @@
 
 .input-section {
     background-color: #E5E5E5;
-    padding: 20px 0;
+    padding: 20px;
     border-radius: 8px;
 }
 
 .form-group {
     margin-bottom: 20px;
-    padding: 0 50px;
+    padding: 0 20px;
+    /* padding: 0 50px; */
 }
 
 .form-group h3 {
-    font-size: 28px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .form-group label {
@@ -57,8 +60,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 0 auto; /* Center the input within its container */
-    display: block; /* Ensure inputs are displayed as block elements */
+    margin: 0 auto; 
 }
 
 .contact-form button[type="submit"] {
@@ -69,9 +71,9 @@
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
-    display: block; /* Ensure button is displayed as a block element */
+    /* display: block;  */
     margin: 30px auto;
-    width: 350px;
+    width: 100%;
 }
 
 .contact-form button[type="submit"]:hover {
@@ -81,3 +83,14 @@
 #message {
     height: 180px;
 }
+
+@media only screen and (min-width: 768px) {
+    .contact-form button[type="submit"] {
+        width: 100%;
+        max-width: 357px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+

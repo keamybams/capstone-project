@@ -6,30 +6,26 @@
 
 
 .image-text-section {
-    padding: 50px 0;
+    padding: 50px 20px;
     background-color: rgb(255, 255, 255);
 }
 
 .section-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.left {
-    flex: 1;
+.left, .right {
+    max-width: 100%;
     margin-right: 20px;
-}
-
-.right {
-    flex: 1;
 }
 
 .left img {
     width: 100%;
-    max-width: 400px; /* Adjust as needed */
-    display: block;
-    margin: 0 auto;
+    max-width: none; /* Adjust as needed */
+    margin-bottom: 20px;
 }
 
 .heading h2 {
@@ -42,8 +38,8 @@
     border-bottom-left-radius: 20px;
     display: inline-block;
     text-align: center;
-    width: 400px;
-    margin: 0 auto; 
+    width: auto;
+    margin: 0; 
 }
 
 .right p {
@@ -51,6 +47,7 @@
     margin-bottom: 20px;
     max-width: 400px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .btn {
@@ -66,4 +63,20 @@
 
 .btn:hover {
     background-color: #E9525D;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-content {
+        flex-direction: row; /* Revert to horizontal layout on larger screens */
+    }
+
+    .left, .right {
+        max-width: 50%; /* Each section takes half of the width on tablets */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .left, .right {
+        max-width: 40%; /* Each section takes 40% of the width on desktops */
+    }
 }

@@ -10,30 +10,23 @@
     justify-content: space-around;
 }
 
-.second-right {
-    flex: 1;
-    margin-left: 100px;
-}
-
-.second-left {
-    flex: 1;
+.second-right, .second-left{
+    max-width: 100%;
+    margin-right: 20px;
 }
 
 .second-right img {
     width: 100%;
-    max-width: 400px; 
-    display: block;
-    margin: 0 auto;
-}
-
-.second-left {
-    margin: 0 100px;
+    max-width: none; 
+    margin-bottom: 20px;
 }
 
 .second-left p {
     font-size: 16px;
     margin-bottom: 20px;
     max-width: 400px;
+    font-weight: 400;
+    text-align: justify;
 }
 
 .btn {
