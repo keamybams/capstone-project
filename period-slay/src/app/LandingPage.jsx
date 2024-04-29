@@ -9,12 +9,12 @@ import {SignUpModal} from './components/SignUpModal';
 
 
 export const LandingPage = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     const isModalShown = localStorage.getItem('isModalShown');
-    if (!isModalShown) {
-        setShowModal(true);
+    if (isModalShown) {
+        setShowModal(false);
         localStorage.setItem('isModalShown', true);
     }
   }, []);

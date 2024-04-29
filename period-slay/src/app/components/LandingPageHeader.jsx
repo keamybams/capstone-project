@@ -28,7 +28,7 @@ export const LandingPageHeader = () => {
                 </button>
                 <ul className={`navmenu ${showMenu ? 'show-menu' : ''}`}>
                     <li><Link to="/">Home</Link></li>
-                    <li><a href="#community">Community</a></li>
+                    <li><Link to="/Community">Community</Link></li>
                     <li><a href="#contact-us">Contact us</a></li>
                     <li>
                         <div className='dropdown'>

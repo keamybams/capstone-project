@@ -3,19 +3,22 @@ import card1 from '../../components/card1.png'
 import card2 from '../../components/card2.png'
 import card3 from './hygiene.png'
 import card4 from './wellbeing.png'
+import { Link } from 'react-router-dom';
 
 export const EducationSubHero = () => {
     return (
         <div className="card-section">
             <div className="row">
                 <div className="card">
-                    <h2>Beginner’s guide</h2>
-                    <img src={card1} alt="Card 1" />
-                    <p>We hope this guide helps you feel prepared, 
+                    <Link to="/BeginnersPage">
+                        <h2>Beginner’s guide</h2>
+                        <img src={card1} alt="Card 1" />
+                        <p>We hope this guide helps you feel prepared, 
                         confident, and empowered as you navigate this 
                         new chapter in your life.
                         Let’s get started!
-                    </p>
+                        </p>
+                    </Link>
                 </div>
                 <div className="card">
                     <h2>Understand Your Cycle</h2>

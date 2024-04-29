@@ -44,15 +44,17 @@ export const LandingSubHero = () => {
                     </p>
                 </div>
                 <div className="card">
-                    <h2>Community Stories</h2>
-                    <img src={card4} alt="Card 4" />
-                    <p>Our community is a safe space for sharing and
-                        learning from one another. We hope these stories
-                        inspire and help you as you navigate your own
-                        menstrual journey.
-                        Dive in and connect with a supportive network of
-                        peers who understand what you’re going through.
-                    </p>
+                    <Link to="/Community">
+                        <h2>Community Stories</h2>
+                        <img src={card4} alt="Card 4" />
+                        <p>Our community is a safe space for sharing and
+                            learning from one another. We hope these stories
+                            inspire and help you as you navigate your own
+                            menstrual journey.
+                            Dive in and connect with a supportive network of
+                            peers who understand what you’re going through.
+                        </p>
+                    </Link>
                 </div>
             </div>
         </div>
