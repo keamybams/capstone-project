@@ -4,6 +4,7 @@ import {TipsMain} from './TipsMain'
 import { Footer } from '../../components/Footer';
 import { TipsHeroSection } from './TipsHeroSection'
 import { ContactUsSection } from '../../components/ContactUsSection'
+import { BackButton } from '../../components/BackButton';
 
 
 export const Tips = () => {
@@ -11,6 +12,7 @@ export const Tips = () => {
     <div>
       <LandingPageHeader />
       <TipsHeroSection />
+      <BackButton />
       <TipsMain />
       <ContactUsSection />
       <Footer />

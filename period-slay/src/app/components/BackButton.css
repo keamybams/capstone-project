@@ -1,0 +1,15 @@
+.back-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 50px;
+    color: #575656; /* Adjust color as needed */
+}
+
+.back-button:hover {
+    color: #555; /* Adjust hover color as needed */
+}
+
+.back-button svg {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}

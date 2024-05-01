@@ -71,15 +71,16 @@ export const TipsMain = () => {
                 </p>
                 <button className='msg-btn' type="submit">Take Quiz</button>
 
-                <div className="row">
-                    <div className="card">
+                <h3>Recent Posts</h3>
+                <div className="tips-row">
+                    <div className="tips-card">
                         <img src={Recent1} alt="Card 3" />
                         <p>Dealing with menstrual cramps?
                         These methods will make you
                         feel better. 
                         </p>
                     </div>
-                    <div className="card">
+                    <div className="tips-card">
                         <img src={Recent2} alt="Card 3" />
                         <p>Dealing with menstrual cramps?
                         These methods will make you

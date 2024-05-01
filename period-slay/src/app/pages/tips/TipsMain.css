@@ -1,3 +1,16 @@
+.tips-content {
+    width: 100%;
+    max-width: 1240px; /* Limit the content width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+}
+
+.tips-content img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+}
+
 .tips-content button[type="submit"] {
     background-color: #E9525D;
     color: #fff;
@@ -6,7 +19,7 @@
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 100%;
     max-width: 357px;
     display: flex;
@@ -15,4 +28,63 @@
 
 .tips-content button[type="submit"]:hover {
     background-color: #b43941;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tips-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.tips-card {
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    margin: 20px; 
+    padding: 20px;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: justify;
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.tips-card:hover {
+    transform: translateY(-5px); /* Add slight lift effect on hover */
+}
+
+
+.tips-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tips-card p {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 400;
+    width: 100%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .tips-row {
+        flex-direction: column;
+    }
+
+    .tips-card {
+        max-width: 300px;
+
+    }
+
 }

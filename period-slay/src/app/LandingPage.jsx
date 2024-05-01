@@ -6,6 +6,8 @@ import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import React, { useState, useEffect } from 'react';
 import {SignUpModal} from './components/SignUpModal';
+import { BackButton } from './components/BackButton';
+
 
 
 export const LandingPage = () => {
@@ -28,6 +30,7 @@ export const LandingPage = () => {
       <LandingPageHeader />
       <LandingHeroSection />
       {showModal && <SignUpModal onClose={handleCloseModal} />}
+      <BackButton />
       <LandingSubHero />
       <FaqSection />
       <Footer />
