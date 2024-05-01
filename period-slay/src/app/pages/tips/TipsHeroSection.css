@@ -1,0 +1,24 @@
+.tips-hero-section {
+    background-color: #e3b496;
+    background-size: cover;
+    background-position: center;
+    color: #070000;
+    padding: 100px 0; /* Adjust as needed */
+    text-align: center;
+}
+
+.tips-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tips-hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.tips-hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+

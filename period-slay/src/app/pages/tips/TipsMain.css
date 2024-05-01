@@ -1,0 +1,18 @@
+.tips-content button[type="submit"] {
+    background-color: #E9525D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 357px;
+    display: flex;
+    justify-content: center;
+}
+
+.tips-content button[type="submit"]:hover {
+    background-color: #b43941;
+}

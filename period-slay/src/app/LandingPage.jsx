@@ -14,7 +14,7 @@ export const LandingPage = () => {
   useEffect(() => {
     const isModalShown = localStorage.getItem('isModalShown');
     if (isModalShown) {
-        setShowModal(false);
+        setShowModal(true);
         localStorage.setItem('isModalShown', true);
     }
   }, []);

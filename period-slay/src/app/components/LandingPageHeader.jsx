@@ -32,20 +32,20 @@ export const LandingPageHeader = () => {
                     <li><a href="#contact-us">Contact us</a></li>
                     <li>
                         <div className='dropdown'>
-                            <button className='dropbtn'><Link to="/Education">Education</Link></button>
+                            <Link to="/Education">Education</Link>
                             <FontAwesomeIcon icon={openIndex === 1 ? faAngleUp : faAngleDown} onClick={() => toggleDropdown(1)} />
                             <div className={`dropdown-content ${openIndex === 1 ? 'show' : ''}`}>
                                 <Link to="/BeginnersPage">Beginner's Guide</Link>
                                 <a href='#'>Menstrual Cycle</a>
                                 <a href='#'>Hygiene and Care</a>
-                                <a href='#'>Health Tips</a>
+                                <Link to="/Tips">Health Tips</Link>
                                 <a href='#'>Quizzes</a>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div className='dropdown'>
-                            <button className='dropbtn'>Resources</button>
+                            <a href='#'>Resources</a>
                             <FontAwesomeIcon icon={openIndex === 2 ? faAngleUp : faAngleDown} onClick={() => toggleDropdown(2)} />
                             <div className={`dropdown-content ${openIndex === 2 ? 'show' : ''}`}>
                                 <a href='#'>Education Videos</a>

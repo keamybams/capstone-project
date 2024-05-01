@@ -5,6 +5,7 @@ import { InfoHub } from './pages/aboutus/InfoHub';
 import { Education } from './pages/modules/Education';
 import { BeginnersPage } from './pages/beginnersguide/BeginnersPage';
 import { Community } from './pages/community/Community';
+import { Tips } from './pages/tips/Tips';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/Education" element={<Education />} />
             <Route path='/BeginnersPage' element={<BeginnersPage />} />
             <Route path='/Community' element={<Community />} />
+            <Route path='/Tips' element={<Tips />} />
         </Routes>
       </BrowserRouter>
   

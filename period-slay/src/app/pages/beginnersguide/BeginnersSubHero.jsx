@@ -3,6 +3,7 @@ import card1 from './information.png'
 import card2 from './cycle.png'
 import card3 from './tips.png'
 import card4 from './quizzes.png'
+import { Link } from 'react-router-dom';
 
 export const BeginnersSubHero = () => {
     return (
@@ -30,13 +31,15 @@ export const BeginnersSubHero = () => {
             </div>
             <div className="row">
                 <div className="card">
-                    <h2>Tips for managing first periods</h2>
-                    <img src={card3} alt="Card 3" />
-                    <p> 
-                        Stay updated with the latest news and research
-                        in menstrual health and discover empowering 
-                        content designed to help you navigate this important part of your life with confidence. 
-                    </p>
+                    <Link to="/Tips">
+                        <h2>Tips for managing first periods</h2>
+                        <img src={card3} alt="Card 3" />
+                        <p> 
+                            Stay updated with the latest news and research
+                            in menstrual health and discover empowering 
+                            content designed to help you navigate this important part of your life with confidence. 
+                        </p>
+                    </Link>
                 </div>
                 <div className="card">
                     <h2>Quizzes</h2>
